@@ -1,0 +1,75 @@
+<head>
+        <title> Contact Me</title>
+        <style>
+        .header-container {
+                background-color: aliceblue;
+                padding: 40px;
+                text-align: center;
+                margin-left: auto;
+                margin-right:auto;
+            }
+            .header-span {
+                background-color: navy;
+                padding: 20px;
+            }
+            .header-text {
+                color: wheat;
+                padding: 80px;
+                font-size:  24px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+            }
+            #form-style {
+                background-color: grey;
+                padding: 100px 400px 200px 400px;
+            }
+            #form-content {
+                width: 100%;
+                padding: 12px;
+                margin: 12px;
+            }
+            #submit-button {
+                padding: 12px;
+                margin-left: 170px;
+                margin-right: 170px;
+                color: black;
+                background-color: lightblue;
+                width: 50%;
+
+            }
+            #footer-wrapper {
+            background-color: cornflowerblue;
+            padding: 12px;
+            }
+            #footer-text {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            font-size: 24px;
+            }
+            </style>
+    </head>
+    <body>
+            <div class="header-container">
+                    <span class="header-span">
+                        <a href="/index.html" class="header-text" >Home</a>
+                        <a href="/about.html" class="header-text" >About</a>
+                        <a href="/contact.html" class="header-text" >Contact</a>
+                    </span>
+            </div>
+            <div>
+                <form method="POST" id="form-style">
+                    <input id="form-content" type="text" name="firstName" placeholder="First Name" required><br>
+                    <input id="form-content" type="text" name="lastname" placeholder="Last Name" required><br>
+                    <input id="form-content" type="text" name="ContactNumber" placeholder="Contact Number" required><br>
+                    <input id="form-content" type="email" name="EmailAddress"  placeholder="Email Addrress"required><br>
+                    <input id="submit-button" type="submit" value="Submit Contact Details">
+                </form>
+            </div>
+            <footer>
+                    <div id="footer-wrapper">
+                        <span >
+                            <p id="footer-text"> Copyright Reserved, 2019 by Saud Shaikh</p>
+                        </span>
+                    </div>
+            </footer>
+    </body>
